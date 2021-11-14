@@ -21,7 +21,7 @@
 
 ## CHANGELOG
 
-*Check out the changelog* [here]("https://github.com/UPL123/over-galaxy/blob/main/CHANGELOG.MD")!
+*Check out the changelog* [here](https://github.com/UPL123/over-galaxy/blob/main/CHANGELOG.MD "CHANGELOG")!
 
 ## CREDITS
 
