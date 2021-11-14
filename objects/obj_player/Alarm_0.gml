@@ -1,0 +1,1 @@
+_cool_down = false
