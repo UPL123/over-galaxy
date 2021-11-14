@@ -19,6 +19,10 @@
 *You have 3 lives!*
 *If you lose the 3 lives, you lose!*
 
+## CHANGELOG
+
+*Check out the changelog* [here]("https://github.com/UPL123/over-galaxy/blob/main/CHANGELOG.MD")!
+
 ## CREDITS
 
 *Every sprite, code and sound is made by me! (UPL)*
