@@ -24,7 +24,7 @@ if (_stage = 2) {
 	if (_menu = 1) {
 		draw_text(room_width/2, room_height/2, "volume")
 		draw_sprite(spr_slider, global._volume_slider, room_width/2 + 64, room_height/2)
-		draw_text(room_width/2, room_height/2+40, "???")
+		draw_text(room_width/2, room_height/2+40, "auto shoot")
 		draw_text(room_width/2, room_height/2+80, "back")
 	}
 	draw_text(room_width/2-100, room_height/2+40*_option, ">")
