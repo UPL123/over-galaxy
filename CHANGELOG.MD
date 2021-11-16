@@ -1,6 +1,20 @@
 # CHANGELOG
 *Here you will see every update of the game!*
 
+## VERSION 0.0.0.3
+
+### BUGS FIXES:
+
+1. Fixed some bugs!
+
+### FEATURES:
+
+- Added some effects to the game!
+- Now you will can see were the big bomb is going to explode!
+- Added AUTO-SHOOT! (You can configure it on SETTINGS!)
+
+---------------------------------
+
 ## VERSION 0.0.0.2
 
 ### BUGS FIXES:
@@ -17,4 +31,4 @@
 - The volume setting now has a slide bar!
 - The UI on game now shows the high score and the player lives!
 
-#### PROBABLY NEXT UPDATE: UI UPDATE
+#### PROBABLY NEXT UPDATE: FIXING UPDATE
