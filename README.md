@@ -1,4 +1,4 @@
-# OVER GALAXY 0.0.0.2
+# OVER GALAXY 0.0.0.3
 
 > You're lost in the space and you're trying to go home, but.. Oh! You're raided with enemy bombs!
 
