@@ -69,6 +69,12 @@ if (_stage = 2) {
 		if (keyboard_check_pressed(vk_enter)) {
 			audio_play_sound(snd_move, 0, false)
 			switch _option {
+				case 1:
+					ini_open(working_directory + "/save.ini")
+					global.auto_shoot = !global.auto_shoot
+					ini_write_real("save", "auto_shoot", global.auto_shoot)
+					ini_close()
+				break;
 				case 2: 
 					_menu = 0
 					_option = 1

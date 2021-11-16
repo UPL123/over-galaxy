@@ -47,9 +47,16 @@ if (_inmunity) {
 	image_blend = c_white
 }
 
-if(keyboard_check_pressed(vk_enter) && !_cool_down) {
+if (keyboard_check_pressed(vk_enter) && !_cool_down && !global.auto_shoot) {
 	_cool_down = true
 	alarm[0] = 15/_level
 	audio_play_sound(snd_shoot, 0, false)
-	instance_create_depth(x+(sprite_get_width(sprite_index)/2), y, depth, obj_bullet)
+	instance_create_depth(x+(sprite_get_width(sprite_index)/2+sprite_get_width(spr_bullet)/2), y-(sprite_get_width(spr_bullet)/2)+1, depth-50, obj_bullet)
+}
+
+if (!_cool_down && global.auto_shoot) {
+	_cool_down = true
+	alarm[0] = 15/_level*2
+	audio_play_sound(snd_shoot, 0, false)
+	instance_create_depth(x+(sprite_get_width(sprite_index)/2+sprite_get_width(spr_bullet)/2), y-(sprite_get_width(spr_bullet)/2)+1, depth-50, obj_bullet)
 }

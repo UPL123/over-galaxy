@@ -50,8 +50,7 @@ if (obj_player.visible) {
 		_level_step = 0
 		alarm[0] = 10
 		instance_destroy(obj_level_up)
-		instance_destroy(obj_bomb_1)
-		instance_destroy(obj_little_bomb)
+		instance_destroy(obj_enemy_bullet)
 	} else if (keyboard_check_pressed(vk_escape)) {
 		if (global.on_challenge) game_end() else room_goto(room_menu)
 	}
