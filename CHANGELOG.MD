@@ -1,6 +1,19 @@
 # CHANGELOG
 *Here you will see every update of the game!*
 
+## VERSION 0.0.0.4
+
+### BUGS FIXES:
+
+1. Fixed som much bugs!
+
+### FEATURES:
+
+- Added a new game mode: ARCADE! (A mode that gets harder by the unlocked levels. Can be played in the play menu)
+- Added EXPERIENCIE AND LEVEL system!
+
+---------------------------------
+
 ## VERSION 0.0.0.3
 
 ### BUGS FIXES:

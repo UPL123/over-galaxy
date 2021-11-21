@@ -1,0 +1,6 @@
+draw_set_halign(fa_center)
+draw_sprite_ext(spr_pixel, 0, room_width/2-180,room_height-64, 360, 32, 0, make_color_rgb(55, 0, 0), 1)
+draw_sprite_ext(spr_pixel, 0, room_width/2-180,room_height-64, global._draw_xp, 32, 0, c_yellow, 1)
+draw_text(room_width/2, room_height-60, global.username)
+draw_text(room_width/2-210,room_height-57, string(global.level))
+draw_set_halign(fa_left)

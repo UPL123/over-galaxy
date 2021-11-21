@@ -22,6 +22,12 @@ if (_stage = 2) {
 		draw_text(room_width/2, room_height/2+80, "exit")
 	}
 	if (_menu = 1) {
+		draw_text(room_width/2, room_height/2, "arcade")
+		draw_text(room_width/2+ 180, room_height/2, "< " + string(global.current_level) + " >")
+		draw_text(room_width/2, room_height/2+40, "endless")
+		draw_text(room_width/2, room_height/2+80, "back")
+	}
+	if (_menu = 2) {
 		draw_text(room_width/2, room_height/2, "volume")
 		draw_sprite(spr_slider, global._volume_slider, room_width/2 + 64, room_height/2)
 		draw_text(room_width/2, room_height/2+40, "auto shoot")

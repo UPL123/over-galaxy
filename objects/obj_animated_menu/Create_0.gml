@@ -7,3 +7,4 @@ _option = 0
 
 _x = 0
 _menu = 0
+_confirm = false

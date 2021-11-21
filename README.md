@@ -1,4 +1,4 @@
-# OVER GALAXY 0.0.0.3
+# OVER GALAXY 0.0.0.4
 
 > You're lost in the space and you're trying to go home, but.. Oh! You're raided with enemy bombs!
 
@@ -13,7 +13,7 @@
 
 ## INSTRUCTIONS
 
-*Shoot the booms to don't get hits!*
+*Shoot the boombs to don't lose lives!*
 *Go to the Yellow Zone to level up.*
 *When you level up, you shoot more fast.. but the game gets harder!*
 *You have 3 lives!*

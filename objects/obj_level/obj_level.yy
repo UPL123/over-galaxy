@@ -30,7 +30,7 @@
     "path": "folders/Objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_level_1",
+  "name": "obj_level",
   "tags": [],
   "resourceType": "GMObject",
 }

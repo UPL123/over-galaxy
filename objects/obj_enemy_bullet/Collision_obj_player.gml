@@ -1,5 +1,5 @@
 with (obj_player) {
-	if (!_inmunity && _lives != 0) {
+	if (!_inmunity && visible) {
 		_lives--
 		alarm[1]=30
 		_inmunity = true

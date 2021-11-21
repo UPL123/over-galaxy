@@ -12,4 +12,5 @@ if (x > room_width+_h*2 || x < 0-_h*2) {
 
 if (place_meeting(x, y, obj_bullet)) {
 	instance_destroy()
+	obj_level._destroyed_meteors++
 }

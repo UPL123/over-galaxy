@@ -41,10 +41,11 @@ if (_stage = 2) {
 			audio_play_sound(snd_move, 0, false)
 			switch _option {
 				case 0: 
-					room_goto_next()
+					_menu = 1
+					_option = 0
 				break;
 				case 1: 
-					_menu = 1
+					_menu = 2
 					_option = 0
 				break;
 				case 2: 
@@ -54,6 +55,49 @@ if (_stage = 2) {
 		}
 	}
 	if (_menu = 1) {
+		switch _option {
+			case 0:
+				if (keyboard_check_pressed(vk_right) && global.current_level != global.levels) {
+					audio_play_sound(snd_move, 0, false)
+					global.current_level++
+				}
+				if (keyboard_check_pressed(vk_left) && global.current_level != 0) {
+					audio_play_sound(snd_move, 0, false)
+					global.current_level--
+				}
+			break;	
+		}
+		if (keyboard_check_pressed(vk_enter)) {
+			audio_play_sound(snd_move, 0, false)
+			switch _option {
+				case 0:
+					global.max_level = 5
+					if (_confirm) {
+						room_goto_next()
+					} else {
+						_confirm = true;
+					}
+					break;
+				
+				case 1:
+					global.max_level = undefined
+					global.current_level = 1
+					if (_confirm) {
+						room_goto_next()
+					} else {
+						_confirm = true;
+					}
+					break;
+				
+				case 2:
+					_menu = 0
+					_option = 0
+					_confirm = false
+					break;
+			}
+		}
+	}
+	if (_menu = 2) {
 		switch _option {
 			case 0:
 				if (keyboard_check_pressed(vk_right) && global._volume_slider != 4) {
