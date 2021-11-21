@@ -5,7 +5,7 @@
 
 ### BUGS FIXES:
 
-1. Fixed som much bugs!
+1. Fixed some much bugs!
 
 ### FEATURES:
 
